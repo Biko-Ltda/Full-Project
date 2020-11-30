@@ -27,7 +27,7 @@ We will generate opportunities for professionals who need greater recognition an
 * <b>1.0.3</b>
     * **CREATE**: Create the class diagram;
     * **CREATE**: Create the database diagram (Logical).
-* <b>1.0.4 - First deliverable (AC2)</b>
+* <b>1.0.4 - Final development</b>
     * **EDIT**: Edit the README of the application detailing as much as possible of what was built.
 
 ## The team
@@ -61,6 +61,6 @@ Our project is based on the [Agile Manifesto](https://agilemanifesto.org) and th
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-![asset login](https://user-images.githubusercontent.com/63882166/100659430-62437680-332f-11eb-877f-67ec6b1f171a.png)
+![Fundo landing page](https://user-images.githubusercontent.com/63882166/100659631-a59de500-332f-11eb-86db-d596a0216482.png)
 
 All rights of the Biko Serviços are reserved to team Biko ltda™.
