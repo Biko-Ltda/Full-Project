@@ -26,7 +26,8 @@ We will generate opportunities for professionals who need greater recognition an
     * **CREATE**: Perform user registration authentication, freelance registration and search for professionals through the PhpMyAdmin database (Back-end).
 * <b>2.0.0 - Final development</b>
     * **EDIT**: Edit the README of the application detailing as much as possible of what was built;
-    * **EDIT**: Edit and organize the presentation for the final evaluation of the project.
+    * **EDIT**: Edit and organize the presentation for the final evaluation of the project;
+    * **FIX**: Fix all the errors left in the application (bugs).
 
 ## The team
 
