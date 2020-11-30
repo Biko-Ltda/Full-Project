@@ -11,23 +11,7 @@
 
 ## About the project
 
-We chose this name for a fun fact, <b>"LHMA"</b> is the initial of the name of each member of our group, and coincidentally the junction almost forms the word <b>"LHAMA"</b>, so it makes sense with our pet shop proposal and we use a llama as a mascot and logo of our application.
-Our project consists in a client registration application and login of a pet shop, there are interesting but basic features to use, an example is the user authentication to login, right after the registration.
-
-## Steps by steps
-
-* First of all you need to install the Java environment on your desktop [JDK](https://www.oracle.com/br/java/technologies/javase/javase-jdk8-downloads.html) and [Java](https://www.java.com/pt-BR/);
-* Now download the [.jar](https://github.com/LHMA-Pet-Shop/AC2/tree/main/dist) file available on our GitHub with the contents that the application need to run with no trouble;
-* Run it and explore the application by yourself, there are some features at the actual moment like the register of the user and the authentication of it;
-* If you see any "bug" or an suggestion, please send us an email and tell to us: bikoltda@outlook.com.
-
-## Database diagram
-
-![Diagrama_BD](https://user-images.githubusercontent.com/63882166/97508885-7c202100-195f-11eb-931f-46a064a144a2.png)
-
-## Class diagram
-
-![Diagrama_Classes](https://user-images.githubusercontent.com/63882166/97509830-15503700-1962-11eb-8885-e1834070925a.png)
+We will generate opportunities for professionals who need greater recognition and means that provide greater views, we will begin to develop our idea as a web application, in a simple and objective way, so that the user feels comfortable using our application.
 
 ## Release History
 
@@ -56,12 +40,11 @@ Our project is based on the [Agile Manifesto](https://agilemanifesto.org) and th
 * <b>Developer</b> Larissa Martins da Costa | RA: 200666 - (https://github.com/Larissa1222)
 
 ## Made with
-* [NetBeans](https://netbeans.org/) - NetBeans v11.3 Java IDE.
-* [AdobeXD](https://www.adobe.com/br/products/xd.html) - UX/UI Design tool.
-* [JDK](https://www.oracle.com/br/java/technologies/javase/javase-jdk8-downloads.html) - Java Development Kit means Java Development Kit, and is a set of utilities that allow you to create software systems for the Java platform.
 
-* [brModelo](https://sourceforge.net/projects/brmodelo/) - Excellent tool created to facilitate the creation of relational models of a database.
-* [Creately](https://creately.com/) - Visual software used for chart and diagram.
+* [Visual Studio Code](https://code.visualstudio.com) - A source code editor developed by Microsoft for Windows, Linux and macOS.
+* [Bootstrap template](https://startbootstrap.com/theme/grayscale) - The template we use to our application.
+* [000webhost](https://br.000webhost.com) - The domain host we use in our landing page.
+* [AdobeXD](https://www.adobe.com/br/products/xd.html) - UX/UI Design tool.
 * [Adobe Photoshop](https://www.adobe.com/br/products/photoshop.html) - Adobe Photoshop is software characterized as a two-dimensional raster image editor developed by Adobe Systems.
 
 ## Environment
@@ -70,7 +53,7 @@ Our project is based on the [Agile Manifesto](https://agilemanifesto.org) and th
    
 ## Contributing
 
-1. Fork it (<https://github.com/LHMA-Pet-Shop/AC2/fork>)
+1. Fork it (<https://github.com/Biko-Ltda/Full-Project/fork>)
 2. Create your feature branch (`git checkout -b feature/fooBar`)
 3. Commit your changes (`git commit -am 'Add some fooBar'`)
 4. Push to the branch (`git push origin feature/fooBar`)
@@ -78,6 +61,6 @@ Our project is based on the [Agile Manifesto](https://agilemanifesto.org) and th
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-![Tela de carregamento - Fade](https://user-images.githubusercontent.com/63882166/99312635-17a90100-283d-11eb-9252-dbceeafc26db.png)
+![asset login](https://user-images.githubusercontent.com/63882166/100659430-62437680-332f-11eb-877f-67ec6b1f171a.png)
 
-All rights of the LHMA project are reserved to team Biko ltda™.
+All rights of the Biko Serviços are reserved to team Biko ltda™.
