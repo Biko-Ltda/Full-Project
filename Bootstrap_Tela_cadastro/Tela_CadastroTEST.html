@@ -37,7 +37,7 @@ width: auto;
     
 }
 .bg{
-    background-image: url("green-background-wallpaper-3.jpg");
+    background-image: url("http://127.0.0.1:8080/teste/Bootstrap_Tela_cadastro/Imagens_Biko/green-background-wallpaper-3.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -60,12 +60,12 @@ width: auto;
               </svg> <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item active">
-              <a class="nav-link" href="#"><b>CONTATOS </b><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-telephone-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+              <a class="nav-link" href="FaleConosco.html"><b>CONTATOS </b><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-telephone-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
                 <path fill-rule="evenodd" d="M2.267.98a1.636 1.636 0 0 1 2.448.152l1.681 2.162c.309.396.418.913.296 1.4l-.513 2.053a.636.636 0 0 0 .167.604L8.65 9.654a.636.636 0 0 0 .604.167l2.052-.513a1.636 1.636 0 0 1 1.401.296l2.162 1.681c.777.604.849 1.753.153 2.448l-.97.97c-.693.693-1.73.998-2.697.658a17.47 17.47 0 0 1-6.571-4.144A17.47 17.47 0 0 1 .639 4.646c-.34-.967-.035-2.004.658-2.698l.97-.969z"/>
               </svg></a>
             </li>
             <li class="nav-item active">
-                <a class="nav-link" href="#"><b>O QUE É O BIKO? </b> <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-question-circle-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                <a class="nav-link" href="Sobrenos.html"><b>O QUE É O BIKO? </b> <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-question-circle-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
                     <path fill-rule="evenodd" d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM5.496 6.033a.237.237 0 0 1-.24-.247C5.35 4.091 6.737 3.5 8.005 3.5c1.396 0 2.672.73 2.672 2.24 0 1.08-.635 1.594-1.244 2.057-.737.559-1.01.768-1.01 1.486v.105a.25.25 0 0 1-.25.25h-.81a.25.25 0 0 1-.25-.246l-.004-.217c-.038-.927.495-1.498 1.168-1.987.59-.444.965-.736.965-1.371 0-.825-.628-1.168-1.314-1.168-.803 0-1.253.478-1.342 1.134-.018.137-.128.25-.266.25h-.825zm2.325 6.443c-.584 0-1.009-.394-1.009-.927 0-.552.425-.94 1.01-.94.609 0 1.028.388 1.028.94 0 .533-.42.927-1.029.927z"/>
                   </svg></a>
               </li>
@@ -74,50 +74,50 @@ width: auto;
 </nav>
 
 <div class="container-fluid bg">
-<h4 class="destaque"><img src="C:\Users\Nanias\Desktop\Aprendendo HTML\Cadastro de cliente Biko/logo_biko.png" alt="Some text" width="350px" height="320px"></h4>
-<h1 style="color: black;" class="destaque">CADASTRE-SE PARA SER UM USUARIO BIKO </h1>
+<h4 class="destaque"><img src="http://127.0.0.1:8080/teste/Bootstrap_Tela_cadastro/Imagens_Biko/logo_biko.png" alt="Some text" width="350px" height="320px"/></h4>
+<h1 style="color: black;" class="destaque">CADASTRE-SE PARA SER UM USUÁRIO BIKO </h1>
 </div>
 
  <!--Formulario de Cadastro-->
- <form class="margem" style="background-color: rgb(230, 230, 230);" method="POST" action="TelaLogin.html" onsubmit=" return enviarDados();">
+ <form class="margem" style="background-color: rgb(230, 230, 230);" method="POST" action="cadastroCliente.php" >
     <div class="form-row margem"> <!--Primeira div-->
       <div class="col-md-6 mb-3"> 
         <label for="validationDefault01">Nome completo</label>
-        <input type="text" class="form-control"  id="validationDefault01" required>
+        <input type="text" class="form-control" name="nome"  id="validationDefault01" required>
       </div>
       <div class="col-md-6 mb-3">
         <label for="validationDefault02">E-mail</label>
-        <input type="email" class="form-control" id="validationDefault02" required>
+        <input type="email" class="form-control" name="email" id="validationDefault02" required>
       </div>
       <div class="col-md-3 mb-3">
         <label for="validationDefault03">Telefone</label>
-        <input type="tel" class="form-control" maxlength="12" id="validationDefault03" required>
+        <input type="tel" class="form-control" name="tel" maxlength="12" id="validationDefault03" required>
       </div>
       <div class="col-md-3 mb-3">
         <label for="validationDefault04">CPF ou CNPJ</label>
-        <input type="text" class="form-control" maxlength="14" id="validationDefault04" required>
+        <input type="text" class="form-control" name="cpf" maxlength="14" id="validationDefault04" required>
       </div>
       <div class="col-md-6 mb-3">
         <label for="validationDefault06">CEP</label>
-        <input type="text" class="form-control" id="validationDefault06" required>
+        <input type="text" class="form-control" name="cep" id="validationDefault06" required>
       </div>
     </div>
     <div class="form-row margem"> <!--Segunda div-->
       <div class="col-md-6 mb-3">
         <label for="validationDefault05">Cidade</label>
-        <input type="text" class="form-control" id="validationDefault05" required>
+        <input type="text" class="form-control" name="cidade" id="validationDefault05" required>
       </div>
       <div class="col-md-6 mb-3">
         <label for="validationDefault10">Bairro</label>
-        <input type="text" class="form-control"  id="validationDefault10" required>
+        <input type="text" class="form-control" name="bairro" id="validationDefault10" required>
       </div>
       <div class="col-md-6 mb-3">
         <label for="validationDefault07">Rua</label>
-        <input type="text" class="form-control" id="validationDefault07" required>
+        <input type="text" class="form-control" name="rua" id="validationDefault07" required>
       </div>
       <div class="col-md-3 mb-3">
         <label for="validationDefault08">Estado</label>
-        <select class="custom-select" id="validationDefault08" required>
+        <select class="custom-select" name="estado" id="validationDefault08" required>
           <option selected disabled value="">Selecione...</option>
           <option value="Acre">AC</option>
               <option value="Alagoas">AL</option>
@@ -149,12 +149,12 @@ width: auto;
         </select>
       </div>
       <div class="col-md-3 mb-3">
-        <label for="validationDefault09">Numero</label>
-        <input type="text" class="form-control" id="validationDefault09" required>
+        <label for="validationDefault09">Número</label>
+        <input type="text" class="form-control" name="numero" id="validationDefault09" required>
       </div>
       <div class="col-md-3 mb-3">
         <label for="validationDefault04">Senha</label>
-        <input type="password" class="form-control" maxlength="14" id="validationDefault11" required>
+        <input type="password" class="form-control" name="senha" maxlength="14" id="validationDefault11" required>
       </div>
       <div class="col-md-3 mb-3">
         <label for="validationDefault04">Confirme sua senha</label>

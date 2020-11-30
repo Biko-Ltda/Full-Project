@@ -1,3 +1,10 @@
+<?php
+include("conexaobiko.php");
+$usu_id = $_GET['id'];
+$sql_code = "SELECT * FROM autonomos WHERE id = '$usu_id'";
+$resultado = mysqli_query($conn, $sql_code);
+$dados = mysqli_fetch_array($resultado);
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -5,7 +12,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
-    <title>Tela Pedido</title>
+    <title>Tela Autonomo</title>
 <style>
 body{
 font-family: Helvetica, Arial, sans-serif; /*Define fonte de texto*/
@@ -53,13 +60,42 @@ background-image: url("http://127.0.0.1:8080/teste/Bootstrap_Tela_cadastro/Image
 </nav>
 <br>
 
-<div class="jumbotron" style="margin: 30px;">
-    <h1 class="display-4">PEDIDO SOLICITADO</h1>
-    <p class="lead">Aguarde o retorno do profissional para a negociação do serviço</p>
-    <hr class="my-4">
-    <a href="FaleConosco.html"><p>Dúvidas?Entre em contato</p></a>
-    <a class="btn btn-primary btn-lg" href="ServicosBIKO.php" role="button">Solicitar mais serviços</a>
+<div class="container" style="background-color: rgb(230, 230, 230)">
+  <!-- Example row of columns -->
+  <div class="row">
+    <div class="col-md-4">
+      <img src="http://127.0.0.1:8080/teste/Bootstrap_Tela_cadastro/Imagens_Biko/17004.png" alt="" width="260px" height="260px">
+    </div>
+    <div class="col-md-4">
+      <br>
+      <h4><?php echo $dados['Nome']; ?></h4>
+      <br>
+        <p><?php echo $dados['Servico']; ?></p>
+        <p><?php echo $dados['Cidade']; ?></p>
+        <p><?php echo $dados['Estado']; ?></p>
+    </div>
+    <div class="col-md-4">
+      <h3></h3>
+      <p></p>
+      <a class="btn btn-primary" href="PedidoFeito.html" role="button">CONTRATAR </a>
+    </div>
   </div>
+
+  <hr>
+  <br>
+
+</div>
+<br>
+<div class="container">
+  <!-- Example row of columns -->
+  <div class="row">
+    <div class="col-md-6" style="background-color: rgb(230, 230, 230);">
+      <h2>Descrição</h2>
+      <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+    </div>
+  </div>
+  <hr>
+</div>
 
 </body>
 </html>
