@@ -40,6 +40,9 @@ Our project is based on the [Agile Manifesto](https://agilemanifesto.org) and th
 ## Made with
 
 * [Visual Studio Code](https://code.visualstudio.com) - A source code editor developed by Microsoft for Windows, Linux and macOS.
+* [PhpMyAdmin](https://www.phpmyadmin.net) - Free and open source web application developed in PHP for MySQL administration over the Internet.
+* [XAMPP](https://www.apachefriends.org/pt_br/index.html) - Package with the main open source servers in the market, including FTP, MySQL and Apache databases with support for PHP and Perl languages.
+* [MySQL Workbench](https://www.mysql.com/products/workbench/) - Visual database design tool that integrates development, administration, design, creation and maintenance of SQL in a single integrated development environment
 * [Bootstrap template](https://startbootstrap.com/theme/grayscale) - The template we use to our application.
 * [000webhost](https://br.000webhost.com) - The domain host we use in our landing page.
 * [AdobeXD](https://www.adobe.com/br/products/xd.html) - UX/UI Design tool.
