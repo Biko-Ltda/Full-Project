@@ -1,20 +1,13 @@
-## BIKO
+## BIKO Serviços
 
 ![Sem Título-1](https://user-images.githubusercontent.com/63882166/100658579-104e2100-332e-11eb-9e0e-7b2ba50c478b.png)
 
 ## Requirements - Final development
 
-- [x] Name and logo for the fictional store. 
-- [x] Class diagram containing the general structure of the project.
-- [x] The entity and relationship diagram for the database.
-- [x] Functional user authentication modules (Login and password) and customer registration.
-- [ ] Aggregate database that performs basic CRUD operations (CREATE, READ, UPDATE and DELETE).
-- [ ] Product registration, product catalog and product sale screens.
-- [ ] Authentication and user registration saving the data in the database.
-
-```
-We had several problems in the implementation of the database, as it was an opinion for the current delivery, unfortunately we do not provide this requirement. We continue to research and try to solve these problems.
-```
+- [x] Creation of a company;
+- [x] Definition and Idealization;
+- [x] Database prototyping and modeling;
+- [x] Product backlog and sprints.
 
 ## About the project
 
