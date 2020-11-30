@@ -15,21 +15,18 @@ We will generate opportunities for professionals who need greater recognition an
 
 ## Release History
 
+* <b>0.7.0</b>
+    * **CREATE**: Project idea, company name, logo and slogan;
+    * **CREATE**: Create prototype to use as an application base.
+* <b>0.8.0</b>
+    * **CREATE**: Create a landing page with Hotjar for usability study and a call to our prototype.
+* <b>0.9.0</b>
+    * **CREATE**: Create the project screens (Front-end) using the prototype as a base.
 * <b>1.0.0</b>
-    * **CREATE: Project idea, company name, logo and slogan;
-    * **CREATE**: Create prototype to use as an application base;
-    * **ADD**: Add the prototype to the Java GUI.
-* <b>1.0.1</b>
-    * **CREATE**: Create user registration function;
-    * **CREATE**: Create login function.
-* <b>1.0.2</b>
-    * **RESEARCH**: Search database implementation;
-    * **FIX**: Through research, fix as many deadlocks as possible.
-* <b>1.0.3</b>
-    * **CREATE**: Create the class diagram;
-    * **CREATE**: Create the database diagram (Logical).
-* <b>1.0.4 - Final development</b>
-    * **EDIT**: Edit the README of the application detailing as much as possible of what was built.
+    * **CREATE**: Perform user registration authentication, freelance registration and search for professionals through the PhpMyAdmin database (Back-end).
+* <b>2.0.0 - Final development</b>
+    * **EDIT**: Edit the README of the application detailing as much as possible of what was built;
+    * **EDIT**: Edit and organize the presentation for the final evaluation of the project.
 
 ## The team
 
