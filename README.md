@@ -16,6 +16,7 @@ We will generate opportunities for professionals who need greater recognition an
 ## Release History
 
 * <b>1.0.0</b>
+    * **CREATE: Project idea, company name, logo and slogan;
     * **CREATE**: Create prototype to use as an application base;
     * **ADD**: Add the prototype to the Java GUI.
 * <b>1.0.1</b>
