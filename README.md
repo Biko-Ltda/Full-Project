@@ -1,7 +1,6 @@
 ## BIKO
 
-!(![Sem Título-1](https://user-images.githubusercontent.com/63882166/100658579-104e2100-332e-11eb-9e0e-7b2ba50c478b.png)
-)
+![Sem Título-1](https://user-images.githubusercontent.com/63882166/100658579-104e2100-332e-11eb-9e0e-7b2ba50c478b.png)
 
 ## Requirements - Final development
 
